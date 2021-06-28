@@ -10,8 +10,6 @@ export const dataSources = {
 const App = ({ initialData }) => {
   const visibleSetting = { sidebar: false, miniMap: false };
 
-  console.log(dataSources.representativePipeline());
-
   return (
     <div style={{ height: "100vh" }}>
       <KedroViz

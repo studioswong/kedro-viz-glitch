@@ -1,7 +1,7 @@
 import KedroViz from "@quantumblack/kedro-viz";
 import * as sourceDomainModel from "./data/source_domain_model.json";
 import * as representativePipeline from "./data/complete_demo_pipeline.json";
-import { source } from "common-tags";
+
 export const dataSources = {
   sourceDomainModel: () => sourceDomainModel.default,
   representativePipeline: () => representativePipeline.default,

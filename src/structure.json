@@ -1,0 +1,710 @@
+{
+    "edges": [
+        {
+            "source": "ce29b3f1",
+            "target": "ccd67bd3"
+        },
+        {
+            "source": "ccd67bd3",
+            "target": "78dfbfec"
+        },
+        {
+            "source": "3cc90441",
+            "target": "510c3d89"
+        },
+        {
+            "source": "510c3d89",
+            "target": "472748a0"
+        },
+        {
+            "source": "17aee293",
+            "target": "0df6c140"
+        },
+        {
+            "source": "a830f543",
+            "target": "0df6c140"
+        },
+        {
+            "source": "0df6c140",
+            "target": "04cc1c19"
+        },
+        {
+            "source": "17aee293",
+            "target": "fa2ae200"
+        },
+        {
+            "source": "a830f543",
+            "target": "fa2ae200"
+        },
+        {
+            "source": "fa2ae200",
+            "target": "9bb395ee"
+        },
+        {
+            "source": "17aee293",
+            "target": "2bdbbf8a"
+        },
+        {
+            "source": "a830f543",
+            "target": "2bdbbf8a"
+        },
+        {
+            "source": "2bdbbf8a",
+            "target": "75961ecb"
+        },
+        {
+            "source": "b32ed8af",
+            "target": "0856431e"
+        },
+        {
+            "source": "614bdc35",
+            "target": "0856431e"
+        },
+        {
+            "source": "b76d3e1d",
+            "target": "0856431e"
+        },
+        {
+            "source": "0856431e",
+            "target": "c3127a82"
+        },
+        {
+            "source": "9bb395ee",
+            "target": "af355c4b"
+        },
+        {
+            "source": "04cc1c19",
+            "target": "af355c4b"
+        },
+        {
+            "source": "75961ecb",
+            "target": "af355c4b"
+        },
+        {
+            "source": "af355c4b",
+            "target": "b4c6e8e0"
+        },
+        {
+            "source": "c3127a82",
+            "target": "a4d4c145"
+        },
+        {
+            "source": "472748a0",
+            "target": "a4d4c145"
+        },
+        {
+            "source": "a4d4c145",
+            "target": "a830f543"
+        },
+        {
+            "source": "78dfbfec",
+            "target": "9e55dfe5"
+        },
+        {
+            "source": "c3127a82",
+            "target": "9e55dfe5"
+        },
+        {
+            "source": "9e55dfe5",
+            "target": "17aee293"
+        },
+        {
+            "source": "9bb395ee",
+            "target": "eea41a10"
+        },
+        {
+            "source": "04cc1c19",
+            "target": "eea41a10"
+        },
+        {
+            "source": "75961ecb",
+            "target": "eea41a10"
+        },
+        {
+            "source": "eea41a10",
+            "target": "09a7e640"
+        },
+        {
+            "source": "b4c6e8e0",
+            "target": "217d46ce"
+        },
+        {
+            "source": "ed3646cc",
+            "target": "217d46ce"
+        },
+        {
+            "source": "217d46ce",
+            "target": "0ff2c4d5"
+        },
+        {
+            "source": "09a7e640",
+            "target": "0bc0cc34"
+        },
+        {
+            "source": "5c374eea",
+            "target": "0bc0cc34"
+        },
+        {
+            "source": "0bc0cc34",
+            "target": "6c53544f"
+        },
+        {
+            "source": "a830f543",
+            "target": "917accb7"
+        },
+        {
+            "source": "6c53544f",
+            "target": "917accb7"
+        },
+        {
+            "source": "917accb7",
+            "target": "09ba3d3a"
+        },
+        {
+            "source": "b4c6e8e0",
+            "target": "95a55c29"
+        },
+        {
+            "source": "95a55c29",
+            "target": "ed3646cc"
+        },
+        {
+            "source": "09a7e640",
+            "target": "dddf616b"
+        },
+        {
+            "source": "dddf616b",
+            "target": "5c374eea"
+        },
+        {
+            "source": "300d29fd",
+            "target": "7a83057e"
+        },
+        {
+            "source": "1a3c52bf",
+            "target": "7a83057e"
+        },
+        {
+            "source": "7a83057e",
+            "target": "f493a175"
+        }
+    ],
+    "layers": [
+        "Source data model",
+        "raw",
+        "Domain data model",
+        "intermediate",
+        "primary",
+        "feature",
+        "model_input",
+        "models",
+        "model_output",
+        "reporting"
+    ],
+    "modular_pipelines": [],
+    "nodes": [
+        {
+            "full_name": "add_types_to_maintenance_log",
+            "id": "ccd67bd3",
+            "modular_pipelines": [],
+            "name": "Add Types To Maintenance Log",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "task"
+        },
+        {
+            "full_name": "add_types_to_operator_log",
+            "id": "510c3d89",
+            "modular_pipelines": [],
+            "name": "Add Types To Operator Log",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "task"
+        },
+        {
+            "full_name": "calc_days_between_last_maintenance",
+            "id": "0df6c140",
+            "modular_pipelines": [],
+            "name": "Calc Days Between Last Maintenance",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "task"
+        },
+        {
+            "full_name": "calc_days_since_last_shutdown",
+            "id": "fa2ae200",
+            "modular_pipelines": [],
+            "name": "Calc Days Since Last Shutdown",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "task"
+        },
+        {
+            "full_name": "calc_fte_maintenance_hours_last_6m",
+            "id": "2bdbbf8a",
+            "modular_pipelines": [],
+            "name": "Calc Fte Maintenance Hours Last 6M",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "task"
+        },
+        {
+            "full_name": "combine_equipment_manifest",
+            "id": "0856431e",
+            "modular_pipelines": [],
+            "name": "Combine Equipment Manifest",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "task"
+        },
+        {
+            "full_name": "create_equipment_level_spine",
+            "id": "af355c4b",
+            "modular_pipelines": [],
+            "name": "Create Equipment Level Spine",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "task"
+        },
+        {
+            "full_name": "create_operator_equip_actions",
+            "id": "a4d4c145",
+            "modular_pipelines": [],
+            "name": "Create Operator Equip Actions",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "task"
+        },
+        {
+            "full_name": "create_shutdowns_table",
+            "id": "9e55dfe5",
+            "modular_pipelines": [],
+            "name": "Create Shutdowns Table",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "task"
+        },
+        {
+            "full_name": "create_time_series_spine",
+            "id": "eea41a10",
+            "modular_pipelines": [],
+            "name": "Create Time Series Spine",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "task"
+        },
+        {
+            "full_name": "recommend_maintenance_schedule",
+            "id": "217d46ce",
+            "modular_pipelines": [],
+            "name": "Recommend Maintenance Schedule",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "task"
+        },
+        {
+            "full_name": "score_at_risk_equipment",
+            "id": "0bc0cc34",
+            "modular_pipelines": [],
+            "name": "Score At Risk Equipment",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "task"
+        },
+        {
+            "full_name": "summarise_maintenance_overview",
+            "id": "917accb7",
+            "modular_pipelines": [],
+            "name": "Summarise Maintenance Overview",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "task"
+        },
+        {
+            "full_name": "train_pytorch_classifier",
+            "id": "95a55c29",
+            "modular_pipelines": [],
+            "name": "Train Pytorch Classifier",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "task"
+        },
+        {
+            "full_name": "train_sklearn_predictor",
+            "id": "dddf616b",
+            "modular_pipelines": [],
+            "name": "Train Sklearn Predictor",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "task"
+        },
+        {
+            "full_name": "SAP_operators_export",
+            "id": "3cc90441",
+            "layer": null,
+            "modular_pipelines": [],
+            "name": "Sap Operators Export",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "equipment_db_export_001",
+            "id": "b32ed8af",
+            "layer": "raw",
+            "modular_pipelines": [],
+            "name": "Equipment Db Export 001",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "equipment_db_export_002",
+            "id": "614bdc35",
+            "layer": "raw",
+            "modular_pipelines": [],
+            "name": "Equipment Db Export 002",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "equipment_db_export_003",
+            "id": "b76d3e1d",
+            "layer": "raw",
+            "modular_pipelines": [],
+            "name": "Equipment Db Export 003",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "feat_days_between_shutdown_last_maintenance",
+            "id": "04cc1c19",
+            "layer": "feature",
+            "modular_pipelines": [],
+            "name": "Feat Days Between Shutdown Last Maintenance",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "feat_days_since_last_shutdown",
+            "id": "9bb395ee",
+            "layer": "feature",
+            "modular_pipelines": [],
+            "name": "Feat Days Since Last Shutdown",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "feat_fte_maintenance_hours_last_6m",
+            "id": "75961ecb",
+            "layer": "feature",
+            "modular_pipelines": [],
+            "name": "Feat Fte Maintenance Hours Last 6m",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "int_equipment_manifest",
+            "id": "c3127a82",
+            "layer": "intermediate",
+            "modular_pipelines": [],
+            "name": "Int Equipment Manifest",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "int_maintenance_log",
+            "id": "78dfbfec",
+            "layer": "intermediate",
+            "modular_pipelines": [],
+            "name": "Int Maintenance Log",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "int_sap_operators",
+            "id": "472748a0",
+            "layer": "intermediate",
+            "modular_pipelines": [],
+            "name": "Int Sap Operators",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "maintenance_log_excel",
+            "id": "ce29b3f1",
+            "layer": "raw",
+            "modular_pipelines": [],
+            "name": "Maintenance Log Excel",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "prm_equipment_shutdowns",
+            "id": "17aee293",
+            "layer": "primary",
+            "modular_pipelines": [],
+            "name": "Prm Equipment Shutdowns",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "prm_operator_equipment_actions",
+            "id": "a830f543",
+            "layer": "primary",
+            "modular_pipelines": [],
+            "name": "Prm Operator Equipment Actions",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "pytorch_classifier",
+            "id": "ed3646cc",
+            "layer": "models",
+            "modular_pipelines": [],
+            "name": "Pytorch Classifier",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "recommended_maintenance_schedule",
+            "id": "0ff2c4d5",
+            "layer": "model_output",
+            "modular_pipelines": [],
+            "name": "Recommended Maintenance Schedule",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "risk_scored_equipment",
+            "id": "6c53544f",
+            "layer": "model_output",
+            "modular_pipelines": [],
+            "name": "Risk Scored Equipment",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "sklearn_predictor",
+            "id": "5c374eea",
+            "layer": "models",
+            "modular_pipelines": [],
+            "name": "Sklearn Predictor",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "spine_equipment_level",
+            "id": "b4c6e8e0",
+            "layer": "model_input",
+            "modular_pipelines": [],
+            "name": "Spine Equipment Level",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "spine_time_series",
+            "id": "09a7e640",
+            "layer": "model_input",
+            "modular_pipelines": [],
+            "name": "Spine Time Series",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "summarised_maintenance_overview",
+            "id": "09ba3d3a",
+            "layer": "reporting",
+            "modular_pipelines": [],
+            "name": "Summarised Maintenance Overview",
+            "pipelines": [
+                "complete_demo_pipeline",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "join_source_tables",
+            "id": "7a83057e",
+            "modular_pipelines": [],
+            "name": "Join Source Tables",
+            "pipelines": [
+                "source_domain_model"
+            ],
+            "tags": [],
+            "type": "task"
+        },
+        {
+            "full_name": "Inventory",
+            "id": "300d29fd",
+            "layer": "Source data model",
+            "modular_pipelines": [],
+            "name": "Inventory",
+            "pipelines": [
+                "source_domain_model"
+            ],
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "Machine Shutdowns",
+            "id": "f493a175",
+            "layer": "Domain data model",
+            "modular_pipelines": [],
+            "name": "Machine Shutdowns",
+            "pipelines": [
+                "source_domain_model"
+            ],
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "Maintenance Schedule",
+            "id": "1a3c52bf",
+            "layer": "Source data model",
+            "modular_pipelines": [],
+            "name": "Maintenance Schedule",
+            "pipelines": [
+                "source_domain_model"
+            ],
+            "tags": [],
+            "type": "data"
+        }
+    ],
+    "pipelines": [
+        {
+            "id": "complete_demo_pipeline",
+            "name": "Complete Demo Pipeline"
+        },
+        {
+            "id": "source_domain_model",
+            "name": "Source Domain Model"
+        },
+        {
+            "id": "__default__",
+            "name": "Default"
+        }
+    ],
+    "selected_pipeline": "__default__",
+    "tags": []
+}

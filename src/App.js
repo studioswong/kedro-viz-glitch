@@ -1,22 +1,12 @@
 import KedroViz from "@quantumblack/kedro-viz";
-import * as data from "./structure.json"
-
-
-
-export const dataSources = {
-  
-  layers: () => data
-};
-
-console.log(data)
+import * as dataStructure from "./structure.json";
 
 const App = ({ initialData }) => {
-
-  const visibleSetting = { sidebar: false };
+  const visibleSetting = { sidebar: false, miniMap: false };
 
   return (
     <div style={{ height: "100vh" }}>
-      <KedroViz data={dataSources["layers"]()} visible={visibleSetting} />
+      <KedroViz data={dataStructure.default} visible={visibleSetting} />
     </div>
   );
 };

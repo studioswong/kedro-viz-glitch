@@ -1,0 +1,82 @@
+{
+    "edges": [
+        {
+            "source": "1a3c52bf",
+            "target": "7a83057e"
+        },
+        {
+            "source": "300d29fd",
+            "target": "7a83057e"
+        },
+        {
+            "source": "7a83057e",
+            "target": "f493a175"
+        }
+    ],
+    "layers": [
+        "Source data model",
+        "Domain data model"
+    ],
+    "modular_pipelines": [],
+    "nodes": [
+        {
+            "full_name": "Join Source Tables",
+            "id": "7a83057e",
+            "modular_pipelines": [],
+            "name": "Join Source Tables",
+            "parameters": {},
+            "pipelines": [
+                "source_domain_model"
+            ],
+            "tags": [],
+            "type": "task"
+        },
+        {
+            "dataset_type": "kedro.io.memory_data_set.MemoryDataSet",
+            "full_name": "Inventory",
+            "id": "300d29fd",
+            "layer": "Source data model",
+            "modular_pipelines": [],
+            "name": "Inventory",
+            "pipelines": [
+                "source_domain_model"
+            ],
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "dataset_type": "kedro.io.memory_data_set.MemoryDataSet",
+            "full_name": "Maintenance Schedule",
+            "id": "1a3c52bf",
+            "layer": "Source data model",
+            "modular_pipelines": [],
+            "name": "Maintenance Schedule",
+            "pipelines": [
+                "source_domain_model"
+            ],
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "dataset_type": "kedro.io.memory_data_set.MemoryDataSet",
+            "full_name": "Machine Shutdowns",
+            "id": "f493a175",
+            "layer": "Domain data model",
+            "modular_pipelines": [],
+            "name": "Machine Shutdowns",
+            "pipelines": [
+                "source_domain_model"
+            ],
+            "tags": [],
+            "type": "data"
+        }
+    ],
+    "pipelines": [
+        {
+            "id": "source_domain_model",
+            "name": "Source Domain Model"
+        }
+    ],
+    "selected_pipeline": "source_domain_model",
+    "tags": []
+}
